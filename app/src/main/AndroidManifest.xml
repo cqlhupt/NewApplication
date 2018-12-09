@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:theme="@style/Theme.AppCompat.Light"
             android:name=".FirstActivity"
             android:label="This is an activity">
             <intent-filter>
@@ -23,6 +23,7 @@
 
         </activity>
         <activity
+            android:theme="@style/Theme.AppCompat.Light"
             android:name=".SecondActivity"
             android:label="第二界面">
             <intent-filter>
